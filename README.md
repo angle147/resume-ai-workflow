@@ -39,6 +39,10 @@ flowchart LR
 winget install typst
 ```
 
+> **想直接看成品？** 编译示例简历：
+> `typst compile --root . typst-resume/examples/example-resume.typ`
+> 示例为虚构人物，内含完整注释，标注了所有可定制点（个人摘要、海外经历强调、作品集二维码、量化数字、照片处理等）。
+
 环境要求：核心方法论零依赖（纯 Markdown）；仅 PDF 排版需要 Typst。
 
 ## 设计原则
