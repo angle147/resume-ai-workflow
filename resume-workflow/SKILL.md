@@ -42,10 +42,10 @@ description: "简历投递全流程：从岗位JD解析、多岗对比匹配、�
 
 ### Step 3：资源库选材
 
-从 `D:\hanako\招聘求职\05-简历文件\项目资源库\` 选取经历。规则见 [references/resource-library.md](references/resource-library.md)。
+从用户的「项目资源库」目录选取经历（目录组织规则见 [references/resource-library.md](references/resource-library.md)）。
 
 关键动作：
-- 先读 `基础信息/教育背景.md` 和 `基础信息/技能与证书.md` 获取固定模块
+- 先读用户环境下的 `基础信息/教育背景.md` 和 `基础信息/技能与证书.md` 获取固定模块
 - 根据JD关键词匹配 `项目资源库/` 目录中的 `.md` 文件
 - 选取 4-5 段最相关经历
 - 不相关经历直接砍掉（零售不放技术岗、AI不放仓储岗）
