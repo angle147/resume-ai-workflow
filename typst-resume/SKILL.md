@@ -65,6 +65,14 @@ typst compile --root "简历文件目录" "zhongliang-trade.typ" "output.pdf"
 - 字体栈：模板默认使用 Noto Sans/Serif CJK SC 和 Source Han Sans/Serif SC，Windows 上替换为 Microsoft YaHei + SimSun
 - 如果电脑已安装思源字体，可去掉字体参数让模板使用默认
 
+## 内容来源与选材原则
+
+**内容选材由 resume-workflow 负责，本技能只处理排版**。生成 .typ 前确认以下边界：
+
+- 经历必须是精选的 **4-5 段**（一页极限），按岗位匹配度排序，不相关的果断砍掉（规则见 resume-workflow 的 [references/resource-library.md](../resume-workflow/references/resource-library.md) 选材原则）
+- **简历上不罗列项目库**：素材库（项目资源库）用于投不同岗位时换血，不是全量展示
+- **全量出口是作品集页**（GitHub / 作品集链接），不放简历正文；面试被追问到项目时可口头说明有作品集页，并在跟进邮件附链接
+
 ## 简历内容结构
 
 ### 教育背景规则
