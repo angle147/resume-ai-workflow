@@ -1,0 +1,13 @@
+# 生成的简历与中间产物
+*.pdf
+*.typ
+!templates/**/*.typ
+
+# Typst 缓存
+.typst-cache/
+typst-cache/
+
+# 个人数据（绝不上传）
+resume_facts.yml
+*.token
+*.secret
